@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/video-js.css" />
+		<link rel="stylesheet" type="text/css" href="js/swiper-4.3.5.min.css" />
+		<script type="text/javascript" src="js/swiper-4.3.5.min.js"></script>
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/video.min.js"></script>
+		<style type="text/css">
+			.swiper-container {
+				width: 300px;
+				height: 300px;
+				float: left;
+			}
+			
+			.video-js {
+				float: left;
+				height: 300px;
+			}
+			
+			.home-banner {
+				width: 500px;
+				height: 300px;
+				background: #000000;
+				float: left;
+			}
+			
+			.swiper-slide-active {
+				border: 1px solid #000000;
+			}
+			
+			.video-js .vjs-control-bar {
+				/*opacity: 1 !important;*/
+			}
+			
+			button:focus {
+				outline: none;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<video id="example_video_1" class="video-js vjs-default-skin" autoplay="autoplay" controls preload="none" width="640" height="264" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup="{}">
+			<source src="http://video1.dgtle.com/lhUFSApOVHyIp5JGeFJfannIyaAJ" type='video/mp4' />
+			<source src="http://video1.dgtle.com/lhUFSApOVHyIp5JGeFJfannIyaAJ" type='video/webm' />
+			<source src="http://video1.dgtle.com/lhUFSApOVHyIp5JGeFJfannIyaAJ" type='video/ogg' />
+		</video>
+
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide slide-video" style="background: red;" data-video='http://video1.dgtle.com/lhUFSApOVHyIp5JGeFJfannIyaAJ'>slider1</div>
+				<div class="swiper-slide slide-video" style="background: #555555;" data-video='http://video1.dgtle.com/lt3XGUX9dYl3ekqqNvnDwueCglRk'>slider2</div>
+				<div class="swiper-slide slide-video" style="background: #007AFF;" data-video='http://video1.dgtle.com/lh78cAaCbSjiIDF_I1dm2fiGRJFu'>slider3</div>
+				<div class="swiper-slide slide-video" style="background: red;" data-video='http://video1.dgtle.com/lt3XGUX9dYl3ekqqNvnDwueCglRk'>slider4</div>
+				<div class="swiper-slide slide-video" style="background: #555555;" data-video='http://video1.dgtle.com/lhUFSApOVHyIp5JGeFJfannIyaAJ'>slider5</div>
+				<div class="swiper-slide slide-video" style="background: #007AFF;" data-video='http://video1.dgtle.com/lt3XGUX9dYl3ekqqNvnDwueCglRk'>slider6</div>
+
+			</div>
+			<div class="swiper-button-prev"></div>
+			<!--左箭头-->
+			<div class="swiper-button-next"></div>
+			<!--右箭头-->
+		</div>
+
+	</body>
+
+</html>
+
+<script>
+	var myPlayer = videojs('example_video_1');
+	videojs("example_video_1").ready(function() {
+		var myPlayer = this;
+		myPlayer.play();
+	});
+
+	var mySwiper = new Swiper('.swiper-container', {
+		autoplay: false, //可选选项，自动滑动
+		direction: 'vertical',
+		//		loop: true,
+		slideToClickedSlide: true,
+		slidesPerView: 3,
+		centeredSlides: true,
+		initialSlide: 1,
+		//		loopedSlides : 6,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+		on: {
+			click: function() {
+				//    	var that=this.clickedIndex+1
+				$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+
+			}
+		}
+	})
+	$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+	$('video')[0].onended = function() {
+		console.log('视频播放结束');
+		setTimeout(function() {
+			mySwiper.slideNext();
+			$('video').attr('src', $('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+			console.log($('.swiper-wrapper .swiper-slide-active').attr('data-video'))
+
+		}, 3000)
+	}
+</script>

@@ -1,0 +1,281 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?plnl6e');
+  src:  url('icomoon.eot?plnl6e#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?plnl6e') format('truetype'),
+    url('icomoon.woff?plnl6e') format('woff'),
+    url('icomoon.svg?plnl6e#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fullscreen_off:before {
+  content: "\e950";
+}
+.icon-fullscreen_on:before {
+  content: "\e951";
+}
+.icon-play_arrow:before {
+  content: "\e952";
+}
+.icon-volume_off:before {
+  content: "\e953";
+}
+.icon-volume:before {
+  content: "\e954";
+}
+.icon-Dgtlex-dgtlexlogo-Collaboration-shangzhibo:before {
+  content: "\e94f";
+}
+.icon-Dgtlex-dgtlexicon-live-line:before {
+  content: "\e94c";
+}
+.icon-Dgtlex-dgtlexicon-Time:before {
+  content: "\e94b";
+}
+.icon-xchuxingicon_play:before {
+  content: "\e94a";
+}
+.icon-Dgtlex-dgtlexicon-tips:before {
+  content: "\e949";
+}
+.icon-Dgtlex-dgtlexicon-wom:before {
+  content: "\e90b";
+}
+.icon-Dgtlex-dgtlexlogo-Collaboration-qiniu:before {
+  content: "\e932";
+}
+.icon-Dgtlex-dgtlexlogo-Dgtlelogo:before {
+  content: "\e936";
+}
+.icon-Dgtlex-dgtlexicon-search:before {
+  content: "\e906";
+}
+.icon-Dgtlex-dgtlexicon-portals-admin:before {
+  content: "\e946";
+}
+.icon-Dgtlex-dgtlexicon-Cloud-platform:before {
+  content: "\e947";
+}
+.icon-Dgtlex-dgtlexicon-admin-center:before {
+  content: "\e948";
+}
+.icon-Dgtlex-dgtlexicon-more-horizontal:before {
+  content: "\e937";
+}
+.icon-Dgtlex-dgtlexicon-Refresh:before {
+  content: "\e94d";
+}
+.icon-Dgtlex-dgtlexicon-Home-commend:before {
+  content: "\e94e";
+}
+.icon-Dgtlex-dgtlexlogo-Collaboration-upyun:before {
+  content: "\e933";
+}
+.icon-Dgtlex-dgtlexlogo-Collaboration-geetest:before {
+  content: "\e934";
+}
+.icon-Dgtlex-dgtlexicon-sina-weibo:before {
+  content: "\e92a";
+}
+.icon-Dgtlex-dgtlexicon-eye-solid:before {
+  content: "\e938";
+}
+.icon-Dgtlex-dgtlexicon-chevron-left:before {
+  content: "\e939";
+}
+.icon-Dgtlex-dgtlexicon-chevron-left-bold:before {
+  content: "\e93a";
+}
+.icon-Dgtlex-dgtlexicon-arrow-button-up:before {
+  content: "\e93b";
+}
+.icon-Dgtlex-dgtlexicon-arrow-button-down:before {
+  content: "\e93c";
+}
+.icon-Dgtlex-dgtlexicon-play2:before {
+  content: "\e93d";
+}
+.icon-Dgtlex-dgtlexicon-qzone:before {
+  content: "\e93e";
+}
+.icon-Dgtlex-dgtlexicon-douban:before {
+  content: "\e93f";
+}
+.icon-Dgtlex-dgtlexicon-more-vertical:before {
+  content: "\e940";
+}
+.icon-Dgtlex-dgtlexicon-mark:before {
+  content: "\e941";
+}
+.icon-Dgtlex-dgtlexicon-arrow-button-right:before {
+  content: "\e942";
+}
+.icon-Dgtlex-dgtlexicon-arrow-button-left:before {
+  content: "\e943";
+}
+.icon-Dgtlex-dgtlexicon-tag:before {
+  content: "\e944";
+}
+.icon-Dgtlex-dgtlexicon-message:before {
+  content: "\e945";
+}
+.icon-Dgtlex-dgtlexicon-Plus:before {
+  content: "\e935";
+}
+.icon-Dgtlex-dgtlexicon-avatar-solid:before {
+  content: "\e931";
+}
+.icon-Dgtlex-dgtlexicon-wechat:before {
+  content: "\e92b";
+}
+.icon-Dgtlex-dgtlexicon-pk:before {
+  content: "\e92c";
+}
+.icon-Dgtlex-dgtlexicon-avatar:before {
+  content: "\e92d";
+}
+.icon-Dgtlex-dgtlexicon-play:before {
+  content: "\e92e";
+}
+.icon-Dgtlex-dgtlexicon-moon:before {
+  content: "\e92f";
+}
+.icon-Dgtlex-dgtlexicon-Question-and-Answer:before {
+  content: "\e930";
+}
+.icon-Dgtlex-dgtlexicon-camera:before {
+  content: "\e901";
+}
+.icon-Dgtlex-dgtlexicon-biaoqing:before {
+  content: "\e902";
+}
+.icon-Dgtlex-dgtlexicon-picture:before {
+  content: "\e903";
+}
+.icon-Dgtlex-dgtlexicon-AT:before {
+  content: "\e904";
+}
+.icon-Dgtlex-dgtlexicon-Pencil:before {
+  content: "\e905";
+}
+.icon-Dgtlex-dgtlexicon-bells:before {
+  content: "\e907";
+}
+.icon-Dgtlex-dgtlexicon-wrong:before {
+  content: "\e908";
+}
+.icon-Dgtlex-dgtlexicon-Mall:before {
+  content: "\e909";
+}
+.icon-Dgtlex-dgtlexicon-Map-marker:before {
+  content: "\e900";
+}
+.icon-Dgtlex-dgtlexicon-men:before {
+  content: "\e90a";
+}
+.icon-Dgtlex-dgtlexicon-heart-empty:before {
+  content: "\e90c";
+}
+.icon-Dgtlex-dgtlexicon-hot:before {
+  content: "\e90d";
+}
+.icon-Dgtlex-dgtlexicon-eye:before {
+  content: "\e90e";
+}
+.icon-Dgtlex-dgtlexicon-picture-empty:before {
+  content: "\e90f";
+}
+.icon-Dgtlex-dgtlexicon-picture2:before {
+  content: "\e910";
+}
+.icon-Dgtlex-dgtlexicon-star-empty:before {
+  content: "\e911";
+}
+.icon-Dgtlex-dgtlexicon-italic:before {
+  content: "\e912";
+}
+.icon-Dgtlex-dgtlexicon-font-size:before {
+  content: "\e913";
+}
+.icon-Dgtlex-dgtlexicon-align-left:before {
+  content: "\e914";
+}
+.icon-Dgtlex-dgtlexicon-align-center:before {
+  content: "\e915";
+}
+.icon-Dgtlex-dgtlexicon-align-right:before {
+  content: "\e916";
+}
+.icon-Dgtlex-dgtlexicon-bold:before {
+  content: "\e917";
+}
+.icon-Dgtlex-dgtlexicon-list:before {
+  content: "\e918";
+}
+.icon-Dgtlex-dgtlexicon-quotes:before {
+  content: "\e919";
+}
+.icon-Dgtlex-dgtlexicon-video:before {
+  content: "\e91a";
+}
+.icon-Dgtlex-dgtlexicon-link:before {
+  content: "\e91b";
+}
+.icon-Dgtlex-dgtlexicon-link-off:before {
+  content: "\e91c";
+}
+.icon-Dgtlex-dgtlexicon-Underline:before {
+  content: "\e91d";
+}
+.icon-Dgtlex-dgtlexicon-Clear-font:before {
+  content: "\e91e";
+}
+.icon-Dgtlex-dgtlexicon-glyphicon-off:before {
+  content: "\e91f";
+}
+.icon-Dgtlex-dgtlexicon-me:before {
+  content: "\e920";
+}
+.icon-Dgtlex-dgtlexicon-plus:before {
+  content: "\e921";
+}
+.icon-Dgtlex-dgtlexicon-star:before {
+  content: "\e922";
+}
+.icon-Dgtlex-dgtlexicon-speaker:before {
+  content: "\e923";
+}
+.icon-Dgtlex-dgtlexicon-settings:before {
+  content: "\e924";
+}
+.icon-Dgtlex-dgtlexicon-chevron-right:before {
+  content: "\e925";
+}
+.icon-Dgtlex-dgtlexicon-chevron-right-bold:before {
+  content: "\e926";
+}
+.icon-Dgtlex-dgtlexicon-rss:before {
+  content: "\e927";
+}
+.icon-Dgtlex-dgtlexicon-comment:before {
+  content: "\e928";
+}
+.icon-Dgtlex-dgtlexicon-like:before {
+  content: "\e929";
+}
